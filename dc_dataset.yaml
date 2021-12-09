@@ -77,7 +77,7 @@ dataset_fields:
 
   - field_name: authors
     label: Authors
-    form_placeholder: Joe Bloggs
+    form_placeholder: First Author (Affiliation), Second Author (Affiliation)
     display_property: dc:creator
 
   - field_name: maintainer
