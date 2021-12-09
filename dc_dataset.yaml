@@ -75,17 +75,10 @@ dataset_fields:
     validators: ignore_missing unicode package_version_validator
     form_placeholder: "1.0"
 
-  - field_name: author
-    label: Author
+  - field_name: authors
+    label: Authors
     form_placeholder: Joe Bloggs
     display_property: dc:creator
-
-  - field_name: author_email
-    label: Author Email
-    form_placeholder: joe@example.com
-    display_property: dc:creator
-    display_snippet: email.html
-    display_email_name_field: author
 
   - field_name: maintainer
     label: Maintainer
