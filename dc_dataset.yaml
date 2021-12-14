@@ -18,7 +18,7 @@ dataset_fields:
     label: Overview
     form_placeholder: A short executive summary of the dataset
 
-  - field_name: description
+  - field_name: notes
     label: Description
     form_snippet: markdown.html
     form_placeholder: eg. Detailed description of the data contents
