@@ -85,19 +85,26 @@ dataset_fields:
     validators: ignore_missing unicode package_version_validator
     form_placeholder: "1.0"
 
-  - field_name: authors
-    label: Authors
-    form_placeholder: First Author (Affiliation), Second Author (Affiliation)
+  - field_name: author
+    label: Author
+    form_placeholder: Primary Author (Affiliation)
     display_property: dc:creator
+    
+  - field_name: author_email
+    label: Author Email
+    form_placeholder: email@example.com
+    display_property: dc:author
+    display_snippet: email.html
+    display_email_name_field: maintainer
 
   - field_name: maintainer
     label: Maintainer
-    form_placeholder: Joe Bloggs
+    form_placeholder: Firstname Lastname
     display_property: dc:contributor
 
   - field_name: maintainer_email
     label: Maintainer Email
-    form_placeholder: joe@example.com
+    form_placeholder: email@example.com
     display_property: dc:contributor
     display_snippet: email.html
     display_email_name_field: maintainer
