@@ -17,6 +17,7 @@ dataset_fields:
   - field_name: overview
     label: Overview
     form_placeholder: A short executive summary of the dataset
+    display_snippet: text.html
 
   - field_name: notes
     label: Description
@@ -31,39 +32,47 @@ dataset_fields:
   - field_name: data_fields
     label: Data Fields
     form_placeholder: eg. List of fields in the dataset
+    display_snippet: markdown.html
 
   - field_name: temporal_start
     label: Start Date
     display_property: schema:startDate
     form_placeholder: Earliest date the dataset covers e.g. 2016-01-01
+    display_snippet: date.html
     
   - field_name: temporal_end
     label: End Date
     display_property: schema:endDate
     form_placeholder: Latest date the dataset covers e.g. 2019-01. Leave blank if dataset is updated to present day.
+    display_snippet: date.html
    
   - field_name: data_quality
     label: Data Quality
     form_snippet: markdown.html
     form_placeholder: eg. Description of data quality
-
+    display_snippet: markdown.html
+    
   - field_name: change_log
     label: Change Log
     form_placeholder: eg. List of changes to the dataset over time
+    display_snippet: text.html
 
   - field_name: data_sources
     label: Data Sources
     form_placeholder: eg. List of upstream data sources
+    display_snippet: markdown.html
 
   - field_name: data_processing
     label: Data Creation Process
     form_snippet: markdown.html
     form_placeholder: eg. Detailed description of process of data creation. Ideally with links to code.
-
+    display_snippet: markdown.html
+    
   - field_name: data_applications
     label: Data Applications
     form_snippet: markdown.html
     form_placeholder: e.g Things the data has been used for
+    display_snippet: markdown.html
 
   - field_name: license_id
     label: License
