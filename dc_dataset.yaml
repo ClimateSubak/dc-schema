@@ -38,12 +38,14 @@ dataset_fields:
     label: Start Date
     display_property: schema:startDate
     form_placeholder: Earliest date the dataset covers e.g. 2016-01-01
+    preset: date
     display_snippet: date.html
     
   - field_name: temporal_end
     label: End Date
     display_property: schema:endDate
     form_placeholder: Latest date the dataset covers e.g. 2019-01. Leave blank if dataset is updated to present day.
+    preset: date
     display_snippet: date.html
    
   - field_name: data_quality
