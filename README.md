@@ -1,3 +1,5 @@
+**THIS REPO IS NOW ARCHIVED - PLEASE CONSULT THE [COMMUNITY REPO](https://github.com/ClimateSubak/community) FOR DATA CATALOGUE METADATA RELATED INFORMATION** 
+
 # Subak Data Cooperative Catalog - Schema
 
 To be used with CKAN and ckanext-scheming.  
